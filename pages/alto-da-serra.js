@@ -30,7 +30,7 @@ export default function AutoDaSerra({ products }) {
           </thead>
           <tbody>
             {products.map((item) => (
-              <tr>
+              <tr key={item.name}>
                 <td>{item.name}</td>
                 <td>{item.units}</td>
                 <td>{item.due}</td>
