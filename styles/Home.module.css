@@ -108,6 +108,10 @@
   margin-left: 0.5rem;
 }
 
+.table {
+  width: 750px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
